@@ -52,8 +52,15 @@ WireGuard was deployed using a Docker container.
 
 Firewall rules were both confirued in firewalld on the VM and in the OCI Security List.
 
+**Firewalld rules**
+
+![firewalld_rules](Screenshots/firewalld_rules.png)
+
+**Handshake**
+
 ![Handshake_TCP](Screenshots/Handshake_tcpdump.png)
 
+**WireGuard**
 
 ![wg_show](Screenshots/wg_show.png)
 
@@ -68,6 +75,6 @@ Wordpress is exposed via `8000:80`.
 
 ![Curl Wordpress](Screenshots/curl_wordpress.png)
 
-**External Access**
+**External Access via `http://152.70.61.3:8000`**
 
 ![Wordpress_Install](Screenshots/Wordpress_Install.png)
