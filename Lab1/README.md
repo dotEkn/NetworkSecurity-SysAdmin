@@ -20,3 +20,5 @@ Using the VCN Wizard, the following were configured:
 - Route Table
 - Security List
 This setup allows public internet traffic to reach the compute instance securely.
+
+![VCN Overview](screenshots/VCN_Overview.png)
