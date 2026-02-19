@@ -10,7 +10,7 @@ The purpose of this lab was to:
 The services had to run in the cloud and be accessible externally.
 
 ## 2. Infrastructure Setup in OCI
-### 2.1
+### 2.1 Compartment and VCN
 A new compartment was created to logically separate lab resources.
 
 Using the VCN Wizard, the following were configured:
@@ -22,3 +22,24 @@ Using the VCN Wizard, the following were configured:
 This setup allows public internet traffic to reach the compute instance securely.
 
 ![VCN Overview](Screenshots/VCN_Overview.png)
+
+### 2.2 Security Rules
+Ingress rules were configured in the Security List:
+- TCP, Port 22
+- TCP, Port 8000
+- UDP, Port 51820
+
+![Security Rules](Screenshots/Security_Rules.png)
+
+## 3. Compute Instance
+A virtual machine was created with:
+- Ubuntu 22.04 LTS
+- Always Free
+- 50GB boot volume
+- Public IP address
+SSH key authentication was used for secure access.
+
+![Compute_Overview](Screenshots/Compute_Overview.png)
+
+## 4. Docker Installation
+Docker Engine was installed on the Ubuntu VM.
