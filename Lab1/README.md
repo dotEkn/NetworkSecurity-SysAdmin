@@ -62,12 +62,12 @@ Firewall rules were both confirued in firewalld on the VM and in the OCI Securit
 WordPress and MariaDB were deployed using Docker Compose.
 
 Services:
-- mariadb:11
-- wordpress:6-apache
+- `mariadb:11`
+- `wordpress:6-apache`
 Wordpress is exposed via `8000:80`.
 
 ![Curl Wordpress](Screenshots/curl_wordpress.png)
 
-External Access
+**External Access**
 
 ![Wordpress_Install](Screenshots/Wordpress_Install.png)
