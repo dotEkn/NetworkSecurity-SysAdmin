@@ -54,4 +54,20 @@ Firewall rules were both confirued in firewalld on the VM and in the OCI Securit
 
 ![Handshake_TCP](Screenshots/Handshake_tcpdump.png)
 
+
 ![wg_show](Screenshots/wg_show.png)
+
+## 6. WordPress CMS (Docker Compose)
+### 6.1 Deployment
+WordPress and MariaDB were deployed using Docker Compose.
+
+Services:
+- mariadb:11
+- wordpress:6-apache
+Wordpress is exposed via `8000:80`.
+
+![Curl Wordpress](Screenshots/curl_wordpress.png)
+
+External Access
+
+![Wordpress_Install](Screenshots/Wordpress_Install.png)
