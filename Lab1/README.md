@@ -43,3 +43,15 @@ SSH key authentication was used for secure access.
 
 ## 4. Docker Installation
 Docker Engine was installed on the Ubuntu VM.
+
+![Docker_Check](Screenshots/Docker_Check.png)
+
+## 5. WireGuard VPN (Docker)
+### 5.1 Deployment
+WireGuard was deployed using a Docker container.
+
+Firewall rules were both confirued in firewalld on the VM and in the OCI Security List.
+
+![Handshake_TCP](Screenshots/Handshake_tcpdump.png)
+
+![wg_show](Screenshots/wg_show.png)
