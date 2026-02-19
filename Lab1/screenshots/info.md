@@ -1,1 +1,0 @@
-# Screenshots for Lab1
