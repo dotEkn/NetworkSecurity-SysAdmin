@@ -11,7 +11,7 @@ Each lab is contained in its own folder with a dedicated README:
 
 - [Lab 1 - Compute with Docker/Podman and VPN/CMS](Lab1/README.md)
 - Lab 2 - (Coming soon)
-- Lab 3 - (Coming soon)
+- [Lab 3 - PowerShell Language](Lab3/README.md)
 
 ---
 
