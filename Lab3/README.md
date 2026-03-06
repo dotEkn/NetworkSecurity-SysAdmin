@@ -38,4 +38,4 @@ The `siglist.txt` can be found [HERE](Files/siglist.txt)
 
 The `filesig.ps1` can be found [HERE](Files/filesig.ps1)
 
-![Output_Powershell](Screenshots/Lab3_Natsak.png)
+![Output_Powershell](Screenshots/Lab3_ps1.png)
