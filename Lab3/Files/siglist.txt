@@ -1,0 +1,6 @@
+Filetype;Header(start);Footer(end)
+PE;4D5A;
+JPEG;FFD8;FFD9
+PDF;25504446;
+ZIP;504B;
+DB3;53514C69;
