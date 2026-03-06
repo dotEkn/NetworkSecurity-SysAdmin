@@ -34,6 +34,8 @@ PDF;25504446;
 ZIP;504B;
 DB3;53514C69;
 ```
-**!!Both the `siglist.txt` and `filesig.ps1` will be in this repository!!**
+The `siglist.txt` can be found [HERE](Files/siglist.txt)
+
+The `filesig.ps1` can be found [HERE](Files/filesig.ps1)
 
 ![Output_Powershell](Screenshots/Lab3_Natsak.png)
